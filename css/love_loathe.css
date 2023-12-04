@@ -1,0 +1,34 @@
+img {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glowing-image {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px 5px rgba(277, 175, 188, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(277, 175, 188, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px 5px rgba(277, 175, 188, 0.8);
+  }
+}
+
+img:hover {
+    border: 5px solid white;
+}
+
+img.music_icon {
+    animation: none;
+    border: none;
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+    img, img:hover, .glowing-image img, .glowing-image {
+      animation: none;
+  }
+}
