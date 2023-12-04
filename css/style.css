@@ -56,7 +56,7 @@ h6 {
   font-weight: bold;
 }
 
-h7, p {
+.h7, p {
   font-weight: normal;
   font-size: 15px;
 }
@@ -168,7 +168,7 @@ img.music_icon {
   h3 {
     color: #EE4C7C;
   }
-  h5, h6, h7, p {
+  h5, h6, .h7, p {
     color: #E3E2DF;
   }
 
@@ -293,7 +293,7 @@ img.music_icon {
   h6 {
     font-size: 24px;
   }
-  h7, p {
+  .h7, p {
     font-size: 21px;
   }
   img.music_icon {
